@@ -1,0 +1,31 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background-color: fuchsia;
+  width: 25%;
+}
+
+.main-content {
+  background-color: lightblue;
+  width: 75%;
+}
+
+.flex {
+  display: flex;
+  /* debug */
+  height: 600px;
+}
