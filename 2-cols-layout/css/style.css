@@ -9,6 +9,7 @@ img {
   max-width: 100%;
 }
 
+/* LAYOUT */
 .container {
   width: 80%;
   margin: 0 auto;
@@ -28,4 +29,17 @@ img {
   display: flex;
   /* debug */
   height: 600px;
+}
+
+/* HEADER */
+.header {
+  height: 80px;
+  background-color: orange;
+}
+
+/* FOOTER */
+.footer {
+  /* debug */
+  height: 100px;
+  background-color: darkblue;
 }

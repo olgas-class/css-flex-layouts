@@ -1,0 +1,55 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+/* Layout */
+
+/* HEADER */
+.header {
+  height: 80px;
+  /* debug */
+  background-color: orange;
+}
+
+/* MAIN */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  width: 20%;
+  /* debug */
+  background-color: lightseagreen;
+  min-height: 250px;
+}
+
+.col-large {
+  width: 55%;
+  /* debug */
+  background-color: lightcoral;
+  min-height: 350px;
+}
+
+.sidebar-navigation {
+  padding: 20px;
+}
+
+.sidebar-navigation ul {
+  list-style: none;
+}
+
+.sidebar-navigation ul li {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+  /* debug */
+  height: 100px;
+  background-color: lightblue;
+}
